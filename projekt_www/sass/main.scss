@@ -92,6 +92,9 @@ body {
 		text-decoration: none;
 		text-transform: uppercase;
 		cursor: pointer;
+		&::before {
+			background-color: $light-white;
+		}
 		&:hover::before {
 			transform: scale(1);
 			transform-origin: left;
