@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #333;
+}
+.card {
+	width: 400px;
+	height: auto;
+	background-color: #dddddd;
+	border: 1px solid black;
+	border-radius: 8px;
+	overflow: hidden;
+	&__body {
+		padding: 10px 20px;
+	}
+	&__img {
+		width: 100%;
+		max-width: 400px;
+		object-fit: cover;
+	}
+	&__title {
+		padding: 0 15px;
+		color: #333;
+	}
+	&__text {
+		margin: 20px 0;
+		padding: 15px;
+	}
+	&__btns {
+		display: flex;
+		justify-content: space-around;
+		margin: 20px;
+	}
+	&__btn {
+		padding: 15px;
+		border: 1px solid black;
+		border-radius: 8px;
+		cursor: pointer;
+		&--highlight {
+			color: white;
+			background-color: green;
+		}
+	}
+}
