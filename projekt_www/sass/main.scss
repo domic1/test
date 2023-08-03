@@ -14,7 +14,6 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	/* font-family: 'Dancing Script', cursive; */
 	font-family: 'Open Sans', sans-serif;
 	font-style: 1.6rem;
 }
@@ -58,11 +57,6 @@ body {
 			top: 27px;
 			width: 30%;
 			transition-delay: 0.1s;
-			padding: 2em;
-			height: 75vh;
-			text-align: center;
-			color: $pure-white;
-			
 		}
 	}
 }
@@ -73,4 +67,34 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding: 2em;
+	height: 75vh;
+	text-align: center;
+	color: $pure-white;
+	@include heroImages('../img/palm_640.jpg');
+	background-attachment: scroll;
+	&__heading {
+		font-family: 'Dancing Script', cursive;
+		font-size: 4.8rem;
+		font-weight: 300;
+	}
+	&__text {
+		font-size: 1.4rem;
+	}
+	&__btn {
+		margin: 2em;
+		padding: 0.9em 1.6em;
+		font-style: 1.4rem;
+		background-color: $pure-white;
+		border: none;
+		border-radius: 8px;
+		color: $dark;
+		text-decoration: none;
+		text-transform: uppercase;
+		cursor: pointer;
+		&:hover::before {
+			transform: scale(1);
+			transform-origin: left;
+		}
+	}
 }
