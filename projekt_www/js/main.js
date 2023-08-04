@@ -23,4 +23,3 @@ const handleNavItemsAnimation = () => {
 		delayTime++
 	})
 }
-navBtn.addEventListener('click', handleNav)

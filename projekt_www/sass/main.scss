@@ -343,7 +343,28 @@ body {
 		}
 	}
 }
-
+/* Reviews */
+.reviews {
+	&__box {
+		position: relative;
+		margin: 2em;
+		padding: 2em;
+		border-radius: 8px;
+		box-shadow: 3px 3px 10px #2e2e2e2e;
+		&-img {
+			position: absolute;
+			top: 8%;
+			left: 75%;
+			transform: translate(-50%, -50%);
+			img {
+				width: 80px;
+				height: 80px;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+		}
+	}
+}
 /* media */
 @media (min-width: 576px) {
 	.dreams {
