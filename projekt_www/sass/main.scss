@@ -61,6 +61,11 @@ body {
 		}
 	}
 }
+@media (max-width: 767px) {
+	.reviews.section-padding {
+		padding: 6em 0;
+	}
+}
 /* nav */
 .nav {
 	position: fixed;
@@ -185,8 +190,8 @@ body {
 
 	&__title {
 		font-family: 'Dancing Script', cursive;
-		margin-bottom: 0.05em;
 		font-size: 4.8rem;
+		margin-bottom: 0.05em;
 	}
 	&__text {
 		padding: 1em 0;
@@ -351,6 +356,10 @@ body {
 		padding: 2em;
 		border-radius: 8px;
 		box-shadow: 3px 3px 10px #2e2e2e2e;
+		transition: transform 0.3s;
+		&:hover {
+			transform: scale(0.95);
+		}
 		&-img {
 			position: absolute;
 			top: 8%;
@@ -362,6 +371,16 @@ body {
 				object-fit: cover;
 				border-radius: 50%;
 			}
+		}
+		&-quote {
+			margin-bottom: 1em;
+			font-size: 3rem;
+			color: $main-color;
+		}
+		&-text {
+			margin-bottom: 1em;
+			font-size: 1.4rem;
+			color: $dark;
 		}
 	}
 }
