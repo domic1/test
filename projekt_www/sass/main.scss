@@ -205,7 +205,7 @@ body {
 .hero-img {
 	position: relative;
 	padding: 10em 2em;
-	@include heroImages('../img/hero-mini.jpg');
+	@include heroImages('../img/hero-img/maldives-gae3f0d02c_640.jpg');
 	text-align: center;
 	color: $pure-white;
 	overflow: hidden;
@@ -479,6 +479,7 @@ body {
 	}
 
 	&__form-btn {
+		margin: 5rem 0;
 		align-self: flex-end;
 		padding: 1em;
 		width: 100%;
@@ -707,7 +708,7 @@ body {
 	}
 
 	.header {
-		background-image: $blue-gradient, url('../img/header-big.jpg');
+		background-image: $blue-gradient, url('../img/header/palm_1920.jpg');
 
 		&__heading {
 			font-size: 10rem;
@@ -743,7 +744,7 @@ body {
 
 	.hero-img {
 		padding: 40rem 2em;
-		background-image: $blue-gradient, url('../img/hero-big.jpg');
+		background-image: $blue-gradient, url('../img/hero-img/polynesia-g6f67bbd31_1920.jpg');
 
 		&__title {
 			font-size: 7.2rem;
@@ -756,7 +757,7 @@ body {
 	}
 
 	.offers {
-		background-image: $blue-gradient, url('../img/offer-big.jpg');
+		background-image: $blue-gradient, url('../img/hero-img/maldives-g6b9d7a910_1920.jpg');
 
 		&__option {
 			&-img {
