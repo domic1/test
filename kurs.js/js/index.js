@@ -115,15 +115,21 @@ console.log(x);
 //     x -=3
 // } while (x > 0)
 // 	console.log(x)
-const numbers = [5, 8, 10, 23, 48, 60]
-for (const number of numbers) {
-	console.log(number / 5)
-}
-console.log('~~~~~~~~~~~~')
-for (const number of numbers) {
-	if (number % 2 === 0) {
-		console.log(`%cLiczba ${number} jest parzysta`, 'background-color: yellow; color:black')
-	} else {
-		console.log(`%cLiczba ${number} jest nieparzysta`, 'background-color: tomato; color:black')
-	}
-}
+// const numbers = [5, 8, 10, 23, 48, 60]
+// for (const number of numbers) {
+// 	console.log(number / 5)
+// }
+// console.log('~~~~~~~~~~~~')
+// for (const number of numbers) {
+// 	if (number % 2 === 0) {
+// 		console.log(`%cLiczba ${number} jest parzysta`, 'background-color: yellow; color:black')
+// 	} else {
+// 		console.log(`%cLiczba ${number} jest nieparzysta`, 'background-color: tomato; color:black')
+// 	}
+// }
+const num1 = 1
+const num2 = 2
+const num3 = 3
+const num4 = 4
+const  number =[1, 2, 3, 4, 5, 6]
+const  arr =[1, 2, 3, 4, 5, 6]
