@@ -127,11 +127,11 @@ console.log(x);
 // 		console.log(`%cLiczba ${number} jest nieparzysta`, 'background-color: tomato; color:black')
 // 	}
 // }
-const num1 = 1
-const num2 = 2
-const num3 = 3
-const num4 = 4
-const number = [1, 2, 3, 4, 5, 6]
+// const num1 = 1
+// const num2 = 2
+// const num3 = 3
+// const num4 = 4
+// const number = [1, 2, 3, 4, 5, 6]
 // const  arr =[1, 2, 3, 4, 5, 6, 'sasf", ['asdfasf']]
 
 // const btn1 = document.querySelector('button:nth-of-type(1)')
@@ -139,10 +139,21 @@ const number = [1, 2, 3, 4, 5, 6]
 // const btn3 = document.querySelector('button:nth-of-type(3)')
 
 // console.log(btn1, btn2, btn3)
-const btns = document.querySelectorAll('button')
+// const btns = document.querySelectorAll('button')
 
-function btnMsg(e) {
-	console.log(`Kliknięto ${e.target.textContent} ! 👻`)
-}
+// function btnMsg(e) {
+// 	console.log(`Kliknięto ${e.target.textContent} ! 👻`)
+// }
 // btn1.addEventListener('click', btnMsg)
-btns.forEach(btn => btn.addEventListener('click', btnMsg))
+// btns.forEach(btn => btn.addEventListener('click', btnMsg))
+const numbers = [1, 2, 3, 4, 5]
+numbers.unshift(100, 200, 'avta')
+numbers.shift()
+console.log(numbers)
+const colors = ['red', 'green', 'blue']
+console.log(colors)
+colors.push('gold', 123)
+colors.log(colors)
+
+colors.pop()
+console.log(colors)
