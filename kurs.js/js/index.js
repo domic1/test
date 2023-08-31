@@ -131,5 +131,16 @@ const num1 = 1
 const num2 = 2
 const num3 = 3
 const num4 = 4
-const  number =[1, 2, 3, 4, 5, 6]
-const  arr =[1, 2, 3, 4, 5, 6]
+const number = [1, 2, 3, 4, 5, 6]
+// const  arr =[1, 2, 3, 4, 5, 6, 'sasf", ['asdfasf']]
+
+const btn1 = document.querySelector('button:nth-of-type(1)')
+const btn2 = document.querySelector('button:nth-of-type(2)')
+const btn3 = document.querySelector('button:nth-of-type(3)')
+
+console.log(btn1, btn2, btn3)
+
+function btnMsg(e) {
+	console.log(`Kliknięto ${e.target.textContent} ! 👻`)
+}
+btn1.addEventListener('click', btnMsg)
