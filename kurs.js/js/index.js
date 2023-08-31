@@ -164,20 +164,30 @@ console.log(x);
 // const newNumbers = numbers.map(multiply)
 // console.log(numbers)
 // console.log(newNumbers)
-const numbers = [1, 2, 3, 4, 5]
+// const numbers = [1, 2, 3, 4, 5]
 
-const abc = ['a', 'b', 'c']
-const newAbc = numbers.concat(6, 7, 8, true, abc)
+// const abc = ['a', 'b', 'c']
+// const newAbc = numbers.concat(6, 7, 8, true, abc)
 
 // console.log(newAbc)
 // console.log(numbers)
 
-console.log(abc)
-console.log(...abc)
+// console.log(abc)
+// console.log(...abc)
 
-const drinks = ['pepsi', 'kawa', 'zupa', 'sok', 'woda']
-const meals = ['schabowy', 'spaghetti', 'deser', 'krokiety']
+// const drinks = ['pepsi', 'kawa', 'zupa', 'sok', 'woda']
+// const meals = ['schabowy', 'spaghetti', 'deser', 'krokiety']
 
-const menu = [...drinks, ...meals]
-const menu2 = drinks.concat(meals)
-console.log(menu2)
+// const menu = [...drinks, ...meals]
+// const menu2 = drinks.concat(meals)
+// console.log(menu2)
+const numbers = [0, 0, 1, 1, 2, 2, 2]
+const colors = ['red', 'green', 'blue', true, 123]
+const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+const numbers2 = numbers
+const numbers3 = numbers
+console.log(numbers2.slice(2))
+console.log(numbers3.slice(0, 4))
+
+const randomStuff = colors
+console.log(randomStuff.splice(1, 2))
