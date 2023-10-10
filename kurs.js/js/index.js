@@ -181,13 +181,111 @@ console.log(x);
 // const menu = [...drinks, ...meals]
 // const menu2 = drinks.concat(meals)
 // console.log(menu2)
-const numbers = [0, 0, 1, 1, 2, 2, 2]
-const colors = ['red', 'green', 'blue', true, 123]
-const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
-const numbers2 = numbers
-const numbers3 = numbers
-console.log(numbers2.slice(2))
-console.log(numbers3.slice(0, 4))
+// const numbers = [0, 0, 1, 1, 2, 2, 2]
+// const colors = ['red', 'green', 'blue', true, 123]
+// const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
 
-const randomStuff = colors
-console.log(randomStuff.splice(1, 2))
+// const numbers2 = numbers.slice(0, 2)
+// const numbers3 = numbers.slice(-3)
+
+// console.log(numbers2)
+// console.log(numbers3)
+
+// const randomStuff = colors.splice(-2)
+
+// console.log(randomStuff)
+// console.log(colors)
+
+// const newCars = cars.splice(2, 4, 'test')
+
+// console.log(Cars)
+// console.log(newCars)
+
+/* const numbers = [0, 23, 48, 175, 2, 34, 11]
+numbers.forEach(numbers => console.log(numbers * 5))
+console.log(numbers.includes(10))
+console.log(numbers.indexOf(345)) */
+
+/* const numbers = [0, 1, 1, 3]
+const newNumbers = numbers.forEach(number => number * 2)
+console.log(newNumbers)
+
+const mapNumbers = numbers.map(number => number * 2)
+console.log(mapNumbers)
+ */
+// Zadanie I
+// const letters = ['c', 'd']
+
+// console.log(letters)
+
+// letters.push('e', 'f')
+// console.log(letters)
+
+// letters.unshift('a', 'b')
+// console.log(letters)
+
+// Zadanie II
+// const food = ['🍕', '🍔', '🌯', '🍦']
+// const numbers = ['1', '2', '3', '4', '5', '6']
+
+// const mix = food.concat(numbers)
+// console.log(mix)
+// const mixins = [...numbers, ...food]
+// console.log(mixins)
+
+// Zadanie III
+// const numbers = ['1', '5', '13', '26', '48']
+// // function multiply(x) {
+// // 	return x * 5
+// // }
+// const numberTwo = numbers.map(/* multiply */ number => number * 5)
+// console.log(numberTwo)
+
+// for (const number of numberTwo) {
+// 	if (number % 2 === 0) {
+// 		console.log(`%cLiczba ${number} jest parzysta`, 'background-color: yellow; color:black')
+// 	} else {
+// 		console.log(`%cLiczba ${number} jest nieparzysta`, 'background-color: tomato; color:black')
+// 	}
+// }
+//
+// Zadanie IV
+//
+// const colors = ['blue']
+// colors.unshift('white')
+// colors.push('red')
+// console.log(colors)
+
+// for (let i = 0; i < colors.length; i++) {
+// 	console.log(`Mój ulubiony kolor to:
+//      ${colors[i].charAt(0).toUpperCase() + colors[i].slice(1)}
+//      `)
+// }
+
+//const car = 'Mercedes, Audi, BMW, Nissan, Doge'
+
+//const carA = car.split(', ')
+
+//carA.length > 3 ? console.log('Jest OK') : console.log('Nie jest OK')
+
+//if (carA.includes('Audi')) {
+//	carA.push('Lamborghini')
+//} else {
+//	carA.pop()
+//}
+//console.log(carA)
+// Cześć IMIE, jak się masz ?
+const hello = (name = `drogi użytkowniku`) => {
+	console.log(`Cześć ${name}, jak się masz?`)
+}
+hello()
+hello(`Klaudia`)
+
+function hello2(name = `drogi użytkowniku`){
+console.log(`Cześć ${name}, jak się masz?`)
+}
+hello2()
+
+const add = (x,y) => {
+    console.log(x + y)
+}
